@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-panda3d"
+description = "ComfyUI 3d engine"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["panda3d", "panda3d-gltf", "panda3d-simplepbr"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-Panda3d"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Panda3d"
+Icon = ""
